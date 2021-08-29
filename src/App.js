@@ -1,12 +1,11 @@
 import './App.css';
-import CryptoCross from './Components/cross';
+import ChartData from './Components/ChartData'
 
 function App() {
   return (
     <>
-    <CryptoCross/>
-    </>
-  );
-}
+      <ChartData />
+      </>
+  )}
 
-export default App;
+  export default App;
