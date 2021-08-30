@@ -95,7 +95,7 @@ export default function ChartData() {
         return <div>Loading...</div>
     } else {
         return (
-            <div>
+            <div className="stock-chart">
                 <StockChart highcharts={Highcharts} options={options} />
                 <form>
                     <label>
